@@ -1,0 +1,63 @@
+
+/* class -> .text-red {} */
+/* id -> #id-bilgisi {} */
+
+
+/* css selectors */
+
+/* ul > li:first-child{
+    color:palevioletred;
+}
+
+.color-blue .fw-normal {
+    color:blue;
+    font-weight:normal;
+
+} */
+
+
+li:nth-child(odd) {
+    background: rgb(181, 11, 67);
+}
+
+li:nth-child(even) {
+    background: grey;
+}
+
+li:nth-child(2n-1) {
+    color: rgb(248, 241, 248);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(199, 42, 42);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#first-article {
+    font-size: 40px;
+
+}
+
+.text-red {
+    color: red;
+}
+
+.fs-small {
+    font-size: 14px;
+}
+
+.fs-medium {
+    font-size: 20px;
+}
+
+ .fs-large {
+     font-size: 30px;
+ }
